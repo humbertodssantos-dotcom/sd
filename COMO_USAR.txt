@@ -1,0 +1,58 @@
+====================================================================
+               PRESSEL FUNCIONAL - GUIA DE USO
+====================================================================
+
+Parabéns! Sua página de presell (Lovable) foi baixada e está 100% 
+funcional e pronta para uso no seu Desktop.
+
+--------------------------------------------------------------------
+1. ARQUIVOS INCLUSOS NESTA PASTA:
+--------------------------------------------------------------------
+- index.html:
+    A presell completa, limpa e funcional, sem marca d'água do Lovable,
+    com suporte a clique duplo direto no Windows (funciona offline ou 
+    online) e compatível com qualquer hospedagem.
+
+- original.html:
+    A versão original exata da aplicação Lovable (React / TanStack Router).
+
+- assets/:
+    Pasta com todo o CSS original (Tailwind/estilos), scripts e fontes.
+
+- favicon.ico:
+    O ícone oficial da página.
+
+--------------------------------------------------------------------
+2. COMO TESTAR AGORA MESMO NO SEU COMPUTADOR:
+--------------------------------------------------------------------
+Basta dar dois cliques no arquivo "index.html". Ele vai abrir no seu
+navegador padrão (Google Chrome, Edge, etc.) e você poderá testar todo 
+o fluxo:
+  1) "Iniciar consulta"
+  2) "Iniciar acesso"
+  3) Resposta do cálculo matemático (anti-robô)
+  4) Tela de confirmação "CONSULTA SEGURA" e redirecionamento automático!
+
+--------------------------------------------------------------------
+3. COMO ALTERAR O LINK DE DESTINO / AFILIADO / CHECKOUT:
+--------------------------------------------------------------------
+Abra o arquivo "index.html" no Bloco de Notas ou no seu editor preferido.
+Procure pela linha 134:
+
+    const REDIRECT_URL = "https://valores-receberv2.netlify.app/9345488724234";
+
+Substitua pelo link que você desejar!
+
+* Dica para Tráfego Pago: 
+O código já possui repasse automático de parâmetros UTM! Se você mandar
+o tráfego com tags UTM (ex: pressel.com/?utm_source=facebook), elas serão
+automaticamente adicionadas ao seu link final de destino para você não 
+perder o rastreio das vendas.
+
+--------------------------------------------------------------------
+4. COMO SUBIR NA SUA HOSPEDAGEM (ONLINE):
+--------------------------------------------------------------------
+Basta enviar todos os arquivos desta pasta (index.html, favicon.ico e a 
+pasta assets/) para a pasta pública (ex: public_html) do seu servidor,
+ou arrastar a pasta diretamente para o Netlify / Vercel / Cloudflare Pages.
+====================================================================
